@@ -1,6 +1,6 @@
 -- This file can be loaded by calling `lua require('plugins')` from your init.vim
-
--- Only required if you have packer configured as `opt`
+--
+---- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
@@ -15,5 +15,8 @@ return require('packer').startup(function(use)
 	use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'});
 	use ('nvim-treesitter/playground');
 	use ('theprimeagen/harpoon');
-	use ('rebelot/kanagawa.nvim');
+	use { "catppuccin/nvim", as = "catppuccin" };
+	use ('reisub0/hot-reload.vim');
+	use ('mbbill/undotree');
+	use ('tpope/vim-fugitive'); 
 end)

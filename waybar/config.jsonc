@@ -138,7 +138,7 @@
         "tooltip-format": "{essid} ({signalStrength}%)",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{essid} ({signalStrength}%)"
+        "format-alt": "   {essid}",
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float

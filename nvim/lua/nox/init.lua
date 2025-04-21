@@ -1,4 +1,4 @@
 require("nox.remap")
-require("nox.packer")
-
-vim.cmd.colorscheme("kanagawa-dragon")
+require("nox.lazy")
+require("nox.plugins.colors")
+vim.cmd.set("relativenumber")

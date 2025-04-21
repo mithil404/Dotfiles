@@ -67,7 +67,6 @@ button:hover {
 }
 
 #clock,
-#battery,
 #cpu,
 #memory,
 #disk,
@@ -85,6 +84,10 @@ button:hover {
 #mpd {
     padding: 0 10px;
     color: #ffffff;
+}
+
+#battery {
+    margin: 0 5px;
 }
 
 #window {
